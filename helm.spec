@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           helm
-Version:        3.3.0
+Version:        3.3.4
 Release:        1%{?dist}
 Summary:        The Kubernetes Package Manager.
 License:        ASL 2.0
@@ -40,6 +40,9 @@ install -D -p -m 0755 bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Wed Oct 07 2020 Simone Caronni <negativo17@gmail.com> - 3.3.4-1
+- Update to 3.3.4.
+
 * Mon Aug 17 2020 Simone Caronni <negativo17@gmail.com> - 3.3.0-1
 - Update to 3.3.0.
 
